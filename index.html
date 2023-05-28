@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="files/swiper.min.css?_v=20230525162614">
-    <link rel="stylesheet" href="css/style.min.css?_v=20230525162614">
+    <link rel="stylesheet" href="files/swiper.min.css?_v=20230528141355">
+    <link rel="stylesheet" href="css/style.min.css?_v=20230528141355">
     <title>Главная</title>
 </head>
 
@@ -44,30 +44,30 @@
                 <div class="header-actions">
                     <a href="#" class="link-youtube"><img src="icons/youtube.svg" alt="icon"></a>
                     <div class="header-social">
-                        <div class="social-item"><img src="icons/instagram.svg" alt="icon"></div>
-                        <div class="social-item"><img src="icons/facebook.svg" alt="icon"></div>
-                        <div class="social-item"><img src="icons/telegram.svg" alt="icon"></div>
-                        <div class="social-item"><img src="icons/viber.svg" alt="icon"></div>
+                        <a href="#" class="social-item"><img src="icons/instagram.svg" alt="icon"></a>
+                        <a href="#" class="social-item"><img src="icons/facebook.svg" alt="icon"></a>
+                        <a href="#" class="social-item"><img src="icons/telegram.svg" alt="icon"></a>
+                        <a href="#" class="social-item"><img src="icons/viber.svg" alt="icon"></a>
                     </div>
                     <div class="header-callback">
-                        <a href="tell:+38(093)616-44-41" class="callback-title">+38 (093) 616-44-41</a>
+                        <a href="tell:+380936164441" class="callback-title">+38 (093) 616-44-41</a>
                         <button class="callback icon-phone">Заказать звонок</button>
                     </div>
                 </div>
                 </div>
             </div>
-           <!--  <div class="header-bottom">
-                <div class="header-container">
-                    <button class="bottom-item"><img src="icons/catalog.svg" alt="icon"></button>
-                    <button class="bottom-item">автомобили</button>
-                    <button class="bottom-item">мото техника</button>
-                    <button class="bottom-item">Электрокары</button>
-                    <button class="bottom-item">Под заказ</button>
-                    <button class="bottom-item">В украине</button>
-                    <button class="bottom-item">услуги</button>
-                    <button class="bottom-item">контакты</button>
-                </div>
-            </div> -->
+        </div>
+    </div>
+    <div class="popup-callback">
+        <div class="callback-window">
+            <div class="callback-message"> Спасибо за обращение! Ждите звонка в ближайшее время</div>
+            <div class="callback-sending icon-tire2"></div>
+            <form action="#" class="callback-form">
+                <h2 class="form-title">Оставте ваш номер телефона и мы перезвоним вам в кратчайшие сроки </h2>
+                <input class="form-phone" required placeholder="Номер телефона" type="number">
+                <input class="form-name" required placeholder="Имя" type="text">
+                <button class="form-button">Заказать звонок</button>
+            </form>
         </div>
     </div>
 </header>
@@ -260,12 +260,14 @@
                 <a href="catalog.html" class="top-car-catalog">перейти в каталог</a>
             </div>
         </section>
-        <section class="experts">
+        <section class="experts _form-wrapper">
+            <div class="callback-message"> Спасибо! Мы свяжемся с вами в ближайшее время</div>
+            <div class="callback-sending icon-tire2"></div>
             <div class="experts-wrapper">
                 <div class="experts-container">
                     <h2 class="experts-title">Наши эксперты сделают для вас индивидуальную подборку абсолютно бесплатно</h2>
                     <div class="experts-text">Сайт по продаже автомобилей из Америки. Здесь можно купить Бу автомобили, целые и битые машины с авто аукционов США Копарт, Манхейм, IAAI, CARS.COM ЭКОНОМИЯ при покупке авто под заказ в США до -40%</div>
-                    <form action="#" class="experts-form">
+                    <form action="#" class="experts-form _form">
                         <input class="formInput" type="text" placeholder="Введите ваше имя">
                         <input class="formInput" type="tel" placeholder="Введите ваш номер телефона">
                         <button type="submit">получить консультацию</button>
@@ -321,13 +323,15 @@
                 </div>
             </div>
         </section>
-        <section class="consultation">
+        <section class="consultation _form-wrapper">
+            <div class="callback-message"> Спасибо! Мы свяжемся с вами в ближайшее время</div>
+            <div class="callback-sending icon-tire2"></div>
             <div class="consultation-wrapper"> 
                 <picture><source srcset="img/homepage/consultation/bg.webp" type="image/webp"><img  class="background"src="img/homepage/consultation/bg.jpg" alt="background"></picture>
                 <div class="consultation-container">
                     <div class="consultation-descr-block">
                         <h2 class="consultation-title _title"><span>Получить консультацию</span> со старшим менеджером</h2>
-                        <form action="#" class="consultation-form">
+                        <form action="#" class="consultation-form _form">
                             <div class="inputs-wrapper">
                                 <input type="text"placeholder="Введите ваше имя">
                                 <input type="tell"placeholder="Номер телефона">
@@ -425,13 +429,15 @@
                 </div>
             </div>
         </section>
-        <section class="viber">
+        <section class="viber _form-wrapper">
+            <div class="callback-message"> Спасибо! Мы свяжемся с вами в ближайшее время</div>
+            <div class="callback-sending icon-tire2"></div>
             <div class="viber-wrapper">
                 <div class="viber-icon icon-viber"></div>
                 <div class="viber-container">
                     <h2 class="viber-title">Получить готовую подборку на Viber</h2>
                     <div class="viber-text">Отправим прямо сейчас </div>
-                    <form action="#" class="viber-form">
+                    <form action="#" class="viber-form _form">
                         <input placeholder="Введите ваше имя" type="text">
                         <input placeholder="Ваш Viber" type="text">
                         <button>Получить подборку</button>
@@ -526,12 +532,14 @@
                 </div>
             </div>
         </section>
-        <section class="answer">
+        <section class="answer _form-wrapper">
+            <div class="callback-message"> Спасибо! Мы свяжемся с вами в ближайшее время</div>
+            <div class="callback-sending icon-tire2"></div>
             <div class="answer-wrapper">
                 <div class="answer-container">
                     <h2 class="answer-title">Не нашли нужного ответа?</h2>
                     <div class="answer-text">Заполните форму и мы проконсультируем Вам по любому вопросу</div>
-                    <form action="#" class="answer-form">
+                    <form action="#" class="answer-form _form">
                         <input placeholder="Введите ваше имя" type="text">
                         <input placeholder="Введите ваш номер телефона" type="text">
                         <button>получить консультацию</button>
@@ -612,7 +620,7 @@
     <footer class="footer">
     <div class="footer-head">
         <div class="footer-container">
-            <div data-goto=".section1" class="footer-logo"><img src="icons/logo.svg" alt="icon"></div>
+            <a href="index.html" class="footer-logo"><img src="icons/logo.svg" alt="icon"></a>
             <button class="deposite">Внести депозит</button>
             <div class="footer-social">
                 <div class="social-title">МЫ В МЕССЕНЖЕРАХ</div>
@@ -628,9 +636,9 @@
             <div class="footer-contacts">
                 <div class="contact-title">Контакты</div>
                 <ul class="contact-list">
-                    <li class="contact-item icon-phone">+38 (093) 616-44-41</li>
-                    <li class="contact-item icon-phone">+38 (093) 616-44-41</li>
-                    <li class="contact-item icon-location">5031 S.W. 100th Avenue <br> Cooper City FL 33328</li>
+                    <a href="tell:+380936164441" class="contact-item icon-phone">+38 (093) 616-44-41</a>
+                    <a href="tell:+380936164441" class="contact-item icon-phone">+38 (093) 616-44-41</a>
+                    <a href="contacts.html"  class="contact-item icon-location">5031 S.W. 100th Avenue <br> Cooper City FL 33328</a>
                     <li class="contact-item icon-mail">dealer@gmail.com</li>
                 </ul>
             </div>
@@ -683,7 +691,7 @@
     </div>
 </footer> 
     <div class="site-scale"></div>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDC6CqQDFrHJi7m0yRt9r56E25ZKI3tBZo&_v=20230525162614"></script>
-    <script src="js/app.min.js?_v=20230525162614"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDC6CqQDFrHJi7m0yRt9r56E25ZKI3tBZo&_v=20230528141355"></script>
+    <script src="js/app.min.js?_v=20230528141355"></script>
 </body>
 </html>
